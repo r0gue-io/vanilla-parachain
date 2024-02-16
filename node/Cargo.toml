@@ -10,9 +10,6 @@ edition.workspace = true
 build = "build.rs"
 publish = false
 
-[toolchain]
-channel = "stable"
-
 [lints]
 workspace = true
 
