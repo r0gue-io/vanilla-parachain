@@ -6,6 +6,9 @@ repository = "https://github.com/r0guelabs/pop-pallets.git"
 [profile.release]
 panic = "unwind"
 
+# [toolchain]
+# channel = "stable"
+
 [workspace]
 members = ["node", "runtime"]
 
